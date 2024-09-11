@@ -3,7 +3,7 @@ FROM mysql:latest
    ENV   MYSQL_ROOT_PASSWORD: root
    ENV   MYSQL_DATABASE: users
    ENV   DATABASE_PORT: 3307
-   ENV   MYSQL_USER : ragad
+   ENV   MYSQL_USER : medo
    ENV   MYSQL_PASSWORD: 123
    ENV   DATABASE_HOST: docker
 

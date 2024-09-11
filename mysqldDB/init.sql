@@ -3,10 +3,11 @@ CREATE TABLE users (
   password VARCHAR(100) NULL DEFAULT NULL,
   data VARCHAR(100) NULL DEFAULT NULL,
   PRIMARY KEY (username));
-INSERT INTO users (username,password,data) VALUES ('mo','mo',NULL);
-INSERT INTO users (username,password,data) VALUES ('medo','medo','medo');
-INSERT INTO users (username,password,data) VALUES ('yanal','yanal','yanal');
-INSERT INTO users (username,password,data) VALUES ('ryan','ryan','ryan');
-INSERT INTO users (username,password,data) VALUES ('mohammad','mohammad','yaman');
-INSERT INTO users (username,password,data) VALUES ('osama','osama','medo');
-INSERT INTO users (username,password,data) VALUES ('abood','abood','medo');
+INSERT INTO users (username,password,data) VALUES ('anas','anas',NULL);
+INSERT INTO users (username,password,data) VALUES ('ghada','ghada','hamza');
+INSERT INTO users (username,password,data) VALUES ('hamza','hamza','hamza');
+INSERT INTO users (username,password,data) VALUES ('leen','leen','leen');
+INSERT INTO users (username,password,data) VALUES ('mohammad','mohammad','ragad');
+INSERT INTO users (username,password,data) VALUES ('osama','osama','ragad');
+INSERT INTO users (username,password,data) VALUES ('ragad','ragad','ragad');
+INSERT INTO users (username,password,data) VALUES ('yasmeen','yasmeen','ragad');
